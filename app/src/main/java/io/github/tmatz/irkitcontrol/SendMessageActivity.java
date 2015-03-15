@@ -33,7 +33,7 @@ public class SendMessageActivity extends Activity
 								super.onPostExecute(result);
 								SendMessageActivity.this.finish();
 							}
-							
+
 							@Override
 							protected void onCancelled()
 							{
@@ -42,7 +42,7 @@ public class SendMessageActivity extends Activity
 							}
 						}.execute("http://192.168.0.3/messages", result);
 					}
-					
+
 					@Override
 					protected void onCancelled()
 					{

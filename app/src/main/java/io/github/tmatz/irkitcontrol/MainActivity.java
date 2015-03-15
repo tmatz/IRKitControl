@@ -8,6 +8,9 @@ import android.view.*;
 import android.content.Intent;
 import org.apache.commons.io.IOUtils;
 import java.io.IOException;
+import android.net.nsd.NsdManager;
+import android.net.nsd.NsdServiceInfo;
+import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends Activity 
 {
